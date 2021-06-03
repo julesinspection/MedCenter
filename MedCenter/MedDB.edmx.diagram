@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="081aaec0e99e4606824210f7abdc8b49" Name="Diagram1">
+        <EntityTypeShape EntityType="MedDBModel.sysdiagrams" Width="1.5" PointX="0.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MedDBModel.Врач" Width="1.5" PointX="3.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MedDBModel.Запись" Width="1.5" PointX="3" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MedDBModel.Зуб" Width="1.5" PointX="3" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MedDBModel.Клиент" Width="1.5" PointX="0.75" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MedDBModel.Лечение" Width="1.5" PointX="5.25" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MedDBModel.Прием" Width="1.5" PointX="6" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MedDBModel.Услуга" Width="1.5" PointX="3" PointY="11" IsExpanded="true" />
+        <AssociationConnector Association="MedDBModel.FK__Запись__ID_Врача__412EB0B6" ManuallyRouted="false" />
+        <AssociationConnector Association="MedDBModel.FK__Прием__ID_Врача__3D5E1FD2" ManuallyRouted="false" />
+        <AssociationConnector Association="MedDBModel.FK__Запись__ID_Клиен__403A8C7D" ManuallyRouted="false" />
+        <AssociationConnector Association="MedDBModel.FK__Зуб__ID_Клиента__46E78A0C" ManuallyRouted="false" />
+        <AssociationConnector Association="MedDBModel.FK__Лечение__ID_Зуба__4BAC3F29" ManuallyRouted="false" />
+        <AssociationConnector Association="MedDBModel.FK__Прием__ID_Клиент__3C69FB99" ManuallyRouted="false" />
+        <AssociationConnector Association="MedDBModel.FK__Лечение__ID_Услу__4AB81AF0" ManuallyRouted="false" />
+        <AssociationConnector Association="MedDBModel.FK__Лечение__НомерПр__49C3F6B7" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
